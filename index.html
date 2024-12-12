@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+    <title>Airpods Max</title>
+    <meta charset="utf-8">
+    <style>
+      .Page-A{
+        background-color: #d8d8d8;
+        height: 560px;
+      }
+      .Page-B{
+        background-color: #d8d8d8;
+        height: 420px;
+      }
+      .Page-C{
+        background-color: #d8d8d8;
+        height: 400px;
+      }
+      .header-links{
+        display: flex;
+        justify-content: right;
+        align-items: start;
+        height: 100vh;
+      }
+      .logo{
+        position: absolute;
+        left: 30px;
+        top: 10px;
+        margin: none;
+      }
+      .main-page1{
+        display: flex;
+        position: absolute;
+        left: 10px;
+        top: 50px;
+      }
+      .main-page2{
+        display: flex; 
+        flex-direction: row;
+        position: absolute;
+        left: 10px;
+        top: 600px;
+      }
+      .main-page3{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        left: 10px;
+        top: 1000px;
+      }
+      .Airpods-front{
+        position: absolute;
+        left: 70px;
+        top: 100px;
+      }
+      body{
+        display: flex;
+        flex-direction: column;
+        background-color: #d8d8d8;
+      }
+    </style>
+</head>
+<body>
+  <div class="Page-A">
+    <div class="header-links">
+      <div><a href="..." style="color: gray; text-decoration: none;">Products</a></div>
+      <div><a href="..." style="color: gray; text-decoration: none; margin-left: 20px;">Prices</a></div>
+      <div><a href="..." style="color: gray; text-decoration: none; margin-left: 30px;">Overview</a></div>
+      <div><a href="..." style="color: gray; text-decoration: none; margin-left: 20px;">Contacts</a></div>
+    </div>
+    <div class="logo"><img style="width: 40px;" src="Image/Apple-logo.png"/></div>
+
+    <div class="main-page1">
+      <div>
+        <p style="color: #ebebeb;font-family: sans-serif; font-size: 100px;">Air<br>Pods<br> Max</p>
+        <img class="Airpods-front" src="Image/AirPods-frontlook.png" style="width: 300px; z-index: 1;"/>
+      </div>
+      <div style="margin-left: 150px; margin-top: 80px;">
+        <h1 style="font-family: sans-serif;">Air<br>Pods<br> Max</h1>
+        <p style="font-family: sans-serif; color: grey; font-size: 12px;">"AirPods are the most popular headphones in the world, beloved for their effortless
+          setup. Incredible sound quality, and iconic design."</p>
+        <button style="color: grey; width: 120px; height: 30px;" type="button">Read more</button>
+      </div>
+      <div>
+        <img src="Image/AirPods-sidelook.png" style="margin-top: 100px; margin-right: 20px; overflow: hidden;"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="Page-B">
+    <div class="main-page2">
+      <div>
+        <img src="Image/Blackguy.jpeg" style="width: 320px; border-radius: 70px; margin-top: 10px; z-index: -1;"/>
+        <p style="color: grey; font-family: sans-serif; font-size: 40px; position: absolute; left: 250px; top: 0px;">Everything<br> designed<br> in perfect<br/> harmony.</p>
+      </div>
+      <div>
+        <img src="Image/AirPods-byangle.png" style="width: 240px; margin-left: 120px;"/>
+        <p style="font-family: sans-serif; color: grey; font-size: 12px; margin-left: 30px;">Industry-leading Active Noise Cancellation<br/> counters external sound with equal anti-noise, allowing<br/> you to immerse yourself in what you're listening to.</p>
+        <button type="button" style="color: grey; width: 60px; height: 30px; border: 1px solid whitesmoke; border-radius: 12px; margin-left: 100px;">⟶</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="Page-C">
+     <div class="main-page3">
+       <div>
+        <p style="color: #ebebeb;font-family: sans-serif; font-size: 60px;">Magical<br/> experience</p> 
+        <img src="Image/Type-c.png" style="width: 200px;"/>
+       </div>
+       <div>
+         <img src="Image/AirPods-caseon.png" style="width: 400px; position: absolute; left: 300px; bottom: 60px;"/>
+         <p style="font-family: sans-serif; color: grey; font-size: 12px; margin-top: 280px;">AirPods Max inherit all of the wireless, effortless magic of the AirPods family.Now with Type-c cable support, and different cover cases.</p>
+         <button type="button" style="color: grey; width: 120px; height: 30px;">Read more</button>
+       </div>
+     </div>
+  </div>
+  </body>
+</html>
